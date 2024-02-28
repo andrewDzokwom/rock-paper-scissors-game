@@ -6,12 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-/* body {
-    border: 2px solid  red;
-    border-radius: 5px;
-    padding-bottom: 40px;
-    margin-top: 20px;
-} */
+
 h1, h3 {
     text-align: center;
     margin-bottom: 20px;
@@ -42,10 +37,10 @@ button:hover {
     transition: 600ms;
     
 }
-.reset {
+#reset {
     background-color: greenyellow;
 }
-.reset:hover {
+#reset:hover {
     background-color: red;
     color: white;
     color: green;
