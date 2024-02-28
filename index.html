@@ -10,20 +10,26 @@
     <h1>Rock Paper Scissors Game</h1>
     <h3>Make a choice</h3>
     <div class="options">
-        <button class="option-1 option">rock</button>
-        <button class="option-2 option">paper</button>
-        <button class="option-3 option">scissors</button>
+        <button class="rock option">rock</button>
+        <button class="paper option">paper</button>
+        <button class="scissors option">scissors</button>
     </div>
-    <din class="score">
+    <div class="output"></div>
+    <div class="score">
         <div class="player-score">
             <div class="your-score">Your Score</div>
-            <div class="p-score">0</div>
+            <div id="p-score">0</div>
         </div>
         <div class="computer-score">
-            <div class="comp-score">Your Score</div>
-            <div class="c-score">0</div>
+            <div class="comp-score">Comp. Score</div>
+            <div id="c-score">0</div>
         </div>
     </div>
+    <div >
+        <button  class="reset">restart</button>
+    </div>
+
+    
     <script src="./main.js"></script>
 </body>
 </html>

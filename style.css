@@ -1,34 +1,87 @@
 * {
     padding:0;
     margin: 0 auto;
-    width: 80%;
+    /* width: 100%; */
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+/* body {
+    border: 2px solid  red;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+} */
 h1, h3 {
     text-align: center;
+    margin-bottom: 20px;
 
 }
+h1 {
+    margin-top: 20px;
+}
+h3 {
+    color: red;
+}
+/* .restart {
+    width: 50%;
+    margin: 10px auto;
+    font-weight: bold;
+} */
 button {
     background-color: antiquewhite;
     border: 1px solid red;
     border-radius: 10px;
-    margin: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
 }
 button:hover {
     border-color: blue;
+    background-color: aliceblue;
+    transition: 600ms;
     
+}
+.reset {
+    background-color: greenyellow;
+}
+.reset:hover {
+    background-color: red;
+    color: white;
+    color: green;
+}
+.output {
+    font-size: larger;
+    font-weight: bold;
 }
 
 .options {
     display: flex;
+    margin-bottom: 20px;
+    align-content: space-around;
 }
-
+.score {
+    display: flex;
+    align-content: space-around;
+    width: 95%;
+}
+.c-score,
+.p-score, 
+.your-score, 
+.comp-score {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
 @media (max-width: 600px){
-    *{
-        width: 95%;
-    }
     .options {
         display: flex;
         flex-direction: column;
+    }
+}
+@media (min-width: 61px){
+    *{
+        width:90%;
     }
 }
