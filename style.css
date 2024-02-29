@@ -35,6 +35,7 @@ button:hover {
     border-color: blue;
     background-color: aliceblue;
     transition: 600ms;
+    cursor: pointer;
     
 }
 #reset {
