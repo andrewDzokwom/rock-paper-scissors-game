@@ -22,7 +22,7 @@ scissors.addEventListener('click', ()=> play("scissors"))
 restart.addEventListener('click', ()=>{
   playerScore.textContent = 0
   computerScore.textContent = 0
-  winner.textContent = ""
+  winner.textContent = "SCORE HAS BEEN RESET"
   computer.textContent = ""
   player.textContent = ""
 })
@@ -38,7 +38,6 @@ function play(userChoice) {
    
     if (userChoice === computerChoice) {
       result = "It's a tie!";
-      console.log(userChoice)
       computerScore.textContent++;
       playerScore.textContent++;
       
@@ -48,15 +47,11 @@ function play(userChoice) {
       (userChoice === "scissors" && computerChoice === "paper")
     ) {
       result = "You win!";
-      console.log()
-      console.log(userChoice, computerChoice)
       playerScore.textContent++;
     } else {
       result = "You lose!";
-      console.log(userChoice, computerChoice)
       computerScore.textContent++;
     }
-    // output.textContent = result
     player.textContent = `Player choice: ${userChoice}`
     computer.textContent = `Computer choice: ${computerChoice}`
     winner.textContent = result
