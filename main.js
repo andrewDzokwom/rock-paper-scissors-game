@@ -22,6 +22,9 @@ scissors.addEventListener('click', ()=> play("scissors"))
 restart.addEventListener('click', ()=>{
   playerScore.textContent = 0
   computerScore.textContent = 0
+  winner.textContent = ""
+  computer.textContent = ""
+  player.textContent = ""
 })
 
 let result = "";
