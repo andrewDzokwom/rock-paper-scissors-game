@@ -60,8 +60,13 @@ button:hover {
     align-content: space-around;
     width: 95%;
 }
-.c-score,
-.p-score, 
+#c-score,
+#p-score {
+    font-size: 90px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
 .your-score, 
 .comp-score {
     text-align: center;
