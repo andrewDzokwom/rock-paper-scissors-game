@@ -22,8 +22,8 @@ scissors.addEventListener('click', ()=> play("scissors"))
 restart.addEventListener('click', ()=>{
   playerScore.textContent = 0
   computerScore.textContent = 0
-  winner.textContent = "SCORE HAS BEEN RESET"
-  computer.textContent = ""
+  winner.textContent = ""
+  computer.textContent = "SCORE HAS BEEN RESET"
   player.textContent = ""
 })
 

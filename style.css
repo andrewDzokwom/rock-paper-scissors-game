@@ -5,7 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
 h1, h3 {
     text-align: center;
     margin-bottom: 20px;
@@ -68,6 +67,12 @@ button:hover {
     font-size: 90px;
     font-weight: bolder;
     padding-top: 10px;
+}
+#player-choice,
+#computer-choice,
+#winner {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .your-score, 
