@@ -16,6 +16,12 @@ h1 {
 h3 {
     color: red;
 }
+a {
+    text-decoration: none;
+}
+footer {
+    padding-top: 20px;
+}
 .output {
     background-color: antiquewhite;
     border-radius: 10px;
@@ -96,5 +102,8 @@ button:hover {
     }
     #reset {
         width: 70%;
+    }
+    a {
+        font-size: 15px;
     }
 }
