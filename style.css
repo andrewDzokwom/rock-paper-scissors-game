@@ -100,10 +100,14 @@ button:hover {
     *{
         width:90%;
     }
+    body {
+        height: 100vh;
+    }
     #reset {
         width: 70%;
     }
     a {
         font-size: 15px;
     }
+
 }
