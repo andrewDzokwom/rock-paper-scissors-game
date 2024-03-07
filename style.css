@@ -89,11 +89,17 @@ button:hover {
 }
 @media (max-width: 600px){
     .options {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
     }
     body {
         height: 100vh;
+    }
+    .option {
+        width: 100vw;    
+    }
+    img {
+        width: 15vw;
     }
 }
 @media (min-width: 61px){
