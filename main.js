@@ -38,8 +38,8 @@ function play(userChoice) {
    
     if (userChoice === computerChoice) {
       result = "It's a tie!";
-      computerScore.textContent++;
-      playerScore.textContent++;
+      // computerScore.textContent++;
+      // playerScore.textContent++;
       
     } else if (
       (userChoice === "rock" && computerChoice === "scissors") ||
